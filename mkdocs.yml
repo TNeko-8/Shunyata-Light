@@ -1,0 +1,20 @@
+site_name: 佛系學習筆記
+site_url: https://TNeko-8.github.io/Shunyata-Light
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+
+nav:
+  - 繁中:
+    - 簡介: zh-tw/index.md
+  - 简中:
+    - 简介: zh-cn/index.md
+  - English:
+    - Introduction: en/index.md
+
+plugins:
+  - search
